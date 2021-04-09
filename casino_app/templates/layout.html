@@ -27,50 +27,43 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="{{ url_for('vacancy') }}">{{
-          _('Вакансии') }}</a>
-
-        <a class="navbar-brand" href="{{ url_for('contacts') }}">{{
-            _('Контакты') }}</a>
-
-        <a class="navbar-brand" href="{{ url_for('about') }}">{{ _('О нас')
-            }}</a>
-
-        <a href="/">
-            <img
-                src="{{ url_for('static', filename='images/logo_main_descriptor-ai.png') }}'">
-        </a>
-
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <div class="row-4">
+            <a class="navbar-brand" href="{{ url_for('vacancy') }}">{{ _('Вакансии') }}</a>
+            <a class="navbar-brand" href="{{ url_for('contacts') }}">{{ _('Контакты') }}</a>
+            <a class="navbar-brand" href="{{ url_for('about') }}">{{ _('О нас') }}</a>
+        </div>
+        <div class="row-4">
+            <a href="/">
+                <img class="rounded mx-auto d-block"
+                     src="{{ url_for('static', filename='images/test5.png') }}">
+            </a>
+        </div>
+        <div class="row-4">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{{ url_for('login') }}">{{_
-                        ('Войти')}}</a>
+                    <a class="nav-link" href="{{ url_for('login') }}">{{_ ('Войти')}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active"
-                       href="{{ url_for('register') }}">{{_('Регистрация')}}</a>
+                    <a class="nav-link active" href="{{ url_for('register') }}">{{_('Регистрация')}}</a>
                 </li>
             </ul>
         </div>
-    </div>
+    </div> <!-- /container -->
 </nav>
 
 {% block content %}
 {% endblock %}
 
 <footer class="container" style="text-align: center;">
-    <p>&copy; Company 2017-2021</p>
+    <p>&copy; Company 2021-2022</p>
 </footer>
-
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-
-<script src="{{ url_for('static',
-filename='bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js') }}">
+        crossorigin="anonymous">
 </script>
+
+<script src="{{ url_for('static', filename='bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js') }}"></script>
 
 </body>
 </html>
