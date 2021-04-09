@@ -1,67 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author"
-          content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.80.0">
+{% extends "layout.html" %}
 
-    <title>CYBER SLOTS</title>
-
-    <link rel="canonical"
-          href="https://getbootstrap.com/docs/4.6/examples/jumbotron/">
-    <!-- Bootstrap core CSS -->
-    <link href="{{ url_for('static', filename='bootstrap-4.6.0-dist/css/bootstrap.min.css') }}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link type="text/css" rel="stylesheet"
-          href="{{ url_for('static', filename='casino_fonts.css') }}">
-    <link type="text/css" rel="stylesheet"
-          href="{{ url_for('static', filename='casino_fonts_color.css') }}">
-</head>
-<body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#">{{ _('Вакансии') }}</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarsExample07" aria-controls="navbarsExample07"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <a class="navbar-brand" href="#">{{ _('Контакты') }}</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarsExample07" aria-controls="navbarsExample07"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <a class="navbar-brand" href="#">{{ _('О нас') }}</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarsExample07" aria-controls="navbarsExample07"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">{{_('Войти')}}</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">{{_('Регистрация')}}</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-
-</nav>
-
+{% block content %}
 <main role="main">
     <p></p>
     <div class="container">
@@ -190,17 +129,4 @@
 
 </main>
 
-<footer class="container" style="text-align: center;">
-    <p>&copy; Company 2017-2021</p>
-</footer>
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-
-<script
-        src="{{ url_for('static', filename='bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js') }}"></script>
-
-</body>
-</html>
+{% endblock %}
