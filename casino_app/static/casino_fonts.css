@@ -1,5 +1,26 @@
-@font-face {
-            font-family: trial;
-            src: url('fonts/GALS.ttf');
-            font-weight: bold;
-            }
+body {
+    background: black !important;
+    color: white;
+}
+
+.color-h1 {
+    font-size: 35px;
+    background: linear-gradient(to right, rgb(28, 255, 238) 0%, rgb(102, 111, 247) 45%, rgb(179, 11, 247) 75%, rgb(255, 220, 181) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.color-h {
+    font-size: 63px;
+    background: linear-gradient(to right, rgb(28, 255, 238) 0%, rgb(102, 111, 247) 45%, rgb(179, 11, 247) 75%, rgb(255, 220, 181) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-style-block {
+    flex: 1;
+    background-color: #18191B;
+    border-radius: 12px;
+    padding: 45px 55px;
+    margin-bottom: 30px;
+}
