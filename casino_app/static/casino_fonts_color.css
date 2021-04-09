@@ -1,0 +1,10 @@
+@font-face {
+    font-family: casino_text_font;
+    src: url('fonts/Gilroy/Gilroy-Thin.otf');
+}
+
+.h1-test {
+    font-size: 25px;
+    text-align: center;
+    font-family: casino_text_font;
+}
