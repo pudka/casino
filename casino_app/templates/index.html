@@ -14,19 +14,13 @@
     <link rel="canonical"
           href="https://getbootstrap.com/docs/4.6/examples/jumbotron/">
     <!-- Bootstrap core CSS -->
-    <link href="{{ url_for('static', filename='bootstrap-4.6.0-dist/css/bootstrap.min.css') }}"
-          rel="stylesheet">
-
+    <link href="{{ url_for('static', filename='bootstrap-4.6.0-dist/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link type="text/css" rel="stylesheet"
           href="{{ url_for('static', filename='casino_fonts.css') }}">
-    <style type="text/css">
-        body {
-            background: black !important;
-            color: white;
-            }
-    </style>
+    <link type="text/css" rel="stylesheet"
+          href="{{ url_for('static', filename='casino_fonts_color.css') }}">
 </head>
 <body>
 
@@ -68,97 +62,125 @@
 
 </nav>
 
-<main role="main" class=".bg-dark">
-    <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-3">CYBER SLOTS</h1>
-        </div>
-    </div>
-
+<main role="main">
+    <p></p>
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-4">
                  <img src="{{ url_for('static',
-                                       filename='images/test_1.png') }}"
-                      alt="Girl in a jacket"
-                      width="80" height="79">
-                <h2>Cyber
-                    Slots</h2>
+                                       filename='images/1.jpeg') }}"
+                      alt="Girl in a jacket">
+                <h1 class="h1-test">Cyber
+                    Slots</h1>
             </div>
-            <div class="col-md-8">
-                <h2>{{ _('Азартные игры будущего') }}</h2>
-                <p>Standing on the frontline when the bombs start to fall.
-                    Heaven is jealous of our love, angels are crying from up
+            <div class="col-md-8 text-style-block">
+                <h2 class="color-h1">{{ _('Азартные игры будущего') }}</h2>
+                <p></p>
+                <details>
+                    <summary>Standing on the frontline when the
+                    bombs start to fall.</summary>
+                    <p>Heaven is jealous of our love, angels are crying from up
                     above. Can't replace you with a million rings. Boy, when
                     you're with me I'll give you a taste. Theres no going back.
                     Before you met me I was alright but things were kinda heavy.
                     Heavy is the head that wears the crown.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View
-                    details &raquo;</a></p>
+                </details>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
-                <h2>Cyber Slots</h2>
+                <img src="{{ url_for('static',
+                                       filename='images/2.jpeg') }}"
+                      alt="Girl in a jacket">
+                <h1 class="h1-test">Cyber
+                    Slots</h1>
             </div>
-            <div class="col-md-8">
-                <h2>{{_('Хорошее время. Хорошая игра.')}}</h2>
-                <p>Playing ping pong all night long, everything's all neon and
-                    hazy. Yeah, she's so in demand. She's sweet as pie but if
+            <div class="col-md-8 text-style-block">
+                <h2 class="color-h1">{{_('Хорошее время. Хорошая игра.')}}</h2>
+                <p></p>
+                <details>
+                    <summary>
+                        Playing ping pong all night long, everything's all neon and
+                        hazy. Yeah, she's so in demand.
+                    </summary>
+                    <p> She's sweet as pie but if
                     you break her heart. But down to earth. It's time to face
                     the music I'm no longer your muse. I guess that I forgot I
                     had a choice.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View
-                    details &raquo;</a></p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Cyber Slots</h2>
-            </div>
-            <div class="col-md-8">
-                <h2>{{_('Наша мисия.')}}</h2>
-                <p>Playing ping pong all night long, everything's all neon and
-                    hazy. Yeah, she's so in demand. She's sweet as pie but if
-                    you break her heart. But down to earth. It's time to face
-                    the music I'm no longer your muse. I guess that I forgot I
-                    had a choice.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View
-                    details &raquo;</a></p>
+                </details>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <h2>Cyber Slots</h2>
+                <img src="{{ url_for('static',
+                                       filename='images/3.jpeg') }}"
+                      alt="Girl in a jacket">
+                <h1 class="h1-test">Cyber
+                    Slots</h1>
             </div>
-            <div class="col-md-8">
-                <h2>{{_('Ценности')}}</h2>
-                <p>Playing ping pong all night long, everything's all neon and
-                    hazy. Yeah, she's so in demand. She's sweet as pie but if
+            <div class="col-md-8 text-style-block">
+                <h2 class="color-h1">{{_('Наша мисия.')}}</h2>
+                <p></p>
+                <details>
+                    <summary>
+                        Playing ping pong all night long, everything's all neon and
+                        hazy. Yeah, she's so in demand.
+                    </summary>
+                    <p> She's sweet as pie but if
                     you break her heart. But down to earth. It's time to face
                     the music I'm no longer your muse. I guess that I forgot I
                     had a choice.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View
-                    details &raquo;</a></p>
+                </details>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                <h2>Cyber Slots</h2>
+                <img src="{{ url_for('static',
+                                       filename='images/4.jpeg') }}"
+                      alt="Girl in a jacket">
+                <h1 class="h1-test">Cyber
+                    Slots</h1>
             </div>
-            <div class="col-md-8">
-                <h2>{{_('Ответственность за игру')}}</h2>
-                <p>Playing ping pong all night long, everything's all neon and
-                    hazy. Yeah, she's so in demand. She's sweet as pie but if
+            <div class="col-md-8 text-style-block">
+                <h2 class="color-h1">{{_('Ценности')}}</h2>
+                <p></p>
+                <details>
+                    <summary>
+                        Playing ping pong all night long, everything's all neon and
+                        hazy. Yeah, she's so in demand.
+                    </summary>
+                    <p> She's sweet as pie but if
                     you break her heart. But down to earth. It's time to face
                     the music I'm no longer your muse. I guess that I forgot I
                     had a choice.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View
-                    details &raquo;</a></p>
+                </details>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+               <img src="{{ url_for('static',
+                                       filename='images/5.jpeg') }}"
+                      alt="Girl in a jacket">
+                <h1 class="h1-test">Cyber
+                    Slots</h1>
+            </div>
+            <div class="col-md-8 text-style-block">
+                <h2 class="color-h1">{{_('Ответственность за игру')}}</h2>
+               <p></p>
+                <details>
+                    <summary>
+                        Playing ping pong all night long, everything's all neon and
+                        hazy. Yeah, she's so in demand.
+                    </summary>
+                    <p> She's sweet as pie but if
+                    you break her heart. But down to earth. It's time to face
+                    the music I'm no longer your muse. I guess that I forgot I
+                    had a choice.</p>
+                </details>
             </div>
         </div>
 
@@ -168,7 +190,7 @@
 
 </main>
 
-<footer class="container">
+<footer class="container" style="text-align: center;">
     <p>&copy; Company 2017-2021</p>
 </footer>
 
