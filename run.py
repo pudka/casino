@@ -43,5 +43,10 @@ def register():
     return render_template("register.html")
 
 
+@app.route('/main')
+def main():
+    return render_template("main.html")
+
+
 if __name__ == "__main__":
-    app.run(port=8888, debug=True)
+    app.run(port=51413, host='0.0.0.0', debug=True)

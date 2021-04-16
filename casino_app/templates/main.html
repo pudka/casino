@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CYBER SLOTS</title>
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+
+    <link type="text/css" rel="stylesheet"
+          href="{{ url_for('static', filename='main.css') }}">
+
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <ul id="menu">
+                <li><a href="">Vacancy</a> </li>
+                <li><a href="">Contacts</a> </li>
+                <li><a href="">About</a> </li>
+                <li><a href="">Login</a> </li>
+                <li><a href="">Registration</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <footer>
+        <div class="container">
+            <div class="footer-col">
+                <span>Cyber Slots (c) 2021</span>
+            </div>
+            <div class="footer-col">
+                <div class="social-bar-wrap">
+                    <a title="Facebook" href="" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a title="Twitter" href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <a href="mailto:pudgeinvonyx@gmail.com">Write message</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('.nav-toggle').on('click', function(){
+        $('#menu').toggleClass('active');
+        });
+    </script>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</html>

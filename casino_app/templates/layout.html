@@ -2,68 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author"
-          content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.80.0">
+    <meta name="viewport" content="width=device-width">
 
     <title>CYBER SLOTS</title>
 
-    <link rel="canonical"
-          href="https://getbootstrap.com/docs/4.6/examples/jumbotron/">
-    <!-- Bootstrap core CSS -->
+
+    <!-- Bootstrap core CSS-->
     <link href="{{ url_for('static',
     filename='bootstrap-4.6.0-dist/css/bootstrap.min.css') }}" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template-->
     <link type="text/css" rel="stylesheet"
           href="{{ url_for('static', filename='casino_fonts.css') }}">
+
     <link type="text/css" rel="stylesheet"
           href="{{ url_for('static', filename='casino_fonts_color.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='layout.css') }}">
+
+    {% block head %}
+    {% endblock %}
 </head>
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <a class="header__logo" href="/">
+                        <img src="{{ url_for('static', filename='images/logo_main.png') }}" alt="Girl in a jacket">
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a class="header__link" href="{{ url_for('vacancy') }}">{{ _('Вакансії') }}</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="{{ url_for('contacts') }}">{{ _('Контакти') }}</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="{{ url_for('about') }}">{{ _('Про нас') }}</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="{{ url_for('login') }}">{{_ ('Увійти')}}</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="{{ url_for('register') }}">{{_('Реєстрація')}}</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!-- /container -->
+        </header>
+        <div class="content">
+            <div class="container">
+                <div class="content__text">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <div class="row-4">
-            <a class="navbar-brand" href="{{ url_for('vacancy') }}">{{ _('Вакансии') }}</a>
-            <a class="navbar-brand" href="{{ url_for('contacts') }}">{{ _('Контакты') }}</a>
-            <a class="navbar-brand" href="{{ url_for('about') }}">{{ _('О нас') }}</a>
+                </div>
+                {% block content %}
+                {% endblock %}
+            </div>
         </div>
-        <div class="row-4">
-            <a href="/">
-                <img class="rounded mx-auto d-block"
-                     src="{{ url_for('static', filename='images/test5.png') }}">
-            </a>
-        </div>
-        <div class="row-4">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="{{ url_for('login') }}">{{_ ('Войти')}}</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="{{ url_for('register') }}">{{_('Регистрация')}}</a>
-                </li>
-            </ul>
-        </div>
-    </div> <!-- /container -->
-</nav>
+    </div>
 
-{% block content %}
-{% endblock %}
 
-<footer class="container" style="text-align: center;">
-    <p>&copy; Company 2021-2022</p>
-</footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous">
-</script>
 
-<script src="{{ url_for('static', filename='bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js') }}"></script>
+    <footer class="container footer">
+        <p>&copy; Cyber Slots 2021-2022</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous">
+    </script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js') }}"></script>
 
 </body>
 </html>

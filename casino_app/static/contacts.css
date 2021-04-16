@@ -1,0 +1,52 @@
+.space-contacts{
+    margin: 150px auto;
+}
+
+.space-address{
+    margin: 50px auto;
+}
+
+.color-h{
+    font-size: 80px;
+}
+
+.color-h1{
+    font-size: 52px;
+}
+
+.container p{
+     font-size: 22px;
+     color: #c0c0c0;
+}
+
+@media (max-width:767px){
+    .font_image{
+        max-width: 100%;
+        text-align: center;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .color-h {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .color-h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container p{
+         font-size: 16px;
+         color: #c0c0c0;
+         text-align: center;
+    }
+
+    .space-contacts{
+        margin: 50px auto;
+    }
+
+    .space-address{
+        margin: 20px auto;
+    }
+}

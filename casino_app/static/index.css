@@ -1,0 +1,40 @@
+.container p {
+    font-size: 16px;
+    color: #c0c0c0;
+}
+
+.container summary {
+    font-size: 16px;
+    color: #c0c0c0;
+}
+
+@media (max-width:767px){
+    .font_image{
+        max-width: 100%;
+        text-align: center;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .text-style-block {
+        flex: 1;
+        background-color: #18191B;
+        border-radius: 12px;
+        padding: 45px 55px;
+        margin-bottom: 30px;
+    }
+    .color-h {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .color-h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container p{
+         font-size: 16px;
+         color: #c0c0c0;
+         text-align: left;
+    }
+}
