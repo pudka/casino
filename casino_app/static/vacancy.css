@@ -1,0 +1,13 @@
+.vacancy-marker-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.color-white {
+    color: #FFF !important;
+}
+
+.order-font {
+	color: #FFF32A;
+	font-size: 32px;
+}

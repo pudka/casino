@@ -23,4 +23,5 @@ body {
     border-radius: 12px;
     padding: 45px 55px;
     margin-bottom: 30px;
+    min-height: 250px;
 }
