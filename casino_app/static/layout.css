@@ -182,13 +182,6 @@ html, body {
 .content {
     padding: 100px 0px 0px 0px;
 }
-.content__text {
-    font-size: 18px;
-    line-height: 25px;
-}
-.content__text p{
-    margin: 0px 0px 20px 0px;
-}
 
 @media (max-width: 767px) {
     .content{
