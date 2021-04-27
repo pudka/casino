@@ -9,10 +9,14 @@
     font-family: casino_text_font;
 }
 
-.font_image {
+.block_font_image {
 	margin: 10px 30px 5px 0px;
 	overflow: hidden;
 	min-height: 200px;
     height: 300px
+}
+
+.font_image{
+    max-width: 100%;
 }
 
