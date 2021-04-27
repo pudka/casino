@@ -6,7 +6,7 @@ $(document).ready(function() {
 });
 
 
-jQuery('.link-detailes').click(function () {
+jQuery('.link-details').click(function () {
 	event.preventDefault();
 	jQuery(this).toggle();
 	jQuery(this).next().toggle();
