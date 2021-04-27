@@ -1,11 +1,26 @@
-.container p {
-    font-size: 16px;
-    color: #c0c0c0;
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url('fonts/Gilroy/Gilroy-Medium.otf');
 }
 
-.container summary {
-    font-size: 16px;
+.main-text {
+    font-size: 20px;
     color: #c0c0c0;
+    font-family: Gilroy-Medium;
+    margin-top: 30px;
+}
+
+.main-text-block {
+    font-size: 20px;
+    color: #c0c0c0;
+    font-family: Gilroy-Medium;
+    margin-top: 10px;
+}
+
+.h4-block-index {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Gilroy-Medium;
 }
 
 .space-between-block {
