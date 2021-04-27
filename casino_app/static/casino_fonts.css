@@ -3,7 +3,13 @@ body {
     color: white;
 }
 
+@font-face {
+    font-family: GALS;
+    src: url('fonts/galiver-sans/GALS.ttf');
+}
+
 .color-h1 {
+    font-family: GALS;
     font-size: 45px;
     background: linear-gradient(to right, rgb(28, 255, 238) 0%, rgb(102, 111, 247) 45%, rgb(179, 11, 247) 75%, rgb(255, 220, 181) 100%);
     -webkit-background-clip: text;
