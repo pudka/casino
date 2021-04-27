@@ -4,3 +4,10 @@ $(document).ready(function() {
         $('body').toggleClass('lock');
     });
 });
+
+
+jQuery('.link-detailes').click(function () {
+	event.preventDefault();
+	jQuery(this).toggle();
+	jQuery(this).next().toggle();
+});
