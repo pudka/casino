@@ -21,6 +21,27 @@
     margin-bottom: 60px;
 }
 
+.paragraph_font_vacancy{
+    font-size: 20px;
+    color: white;
+    font-family: Gilroy-Bold;
+    text-align: right;
+}
+
+.vacancy_cyber_slot_text {
+    font-size: 32px;
+    font-family: Gilroy-Bold;
+    background: linear-gradient(to right, rgb(28, 255, 238) 0%, rgb(102, 111, 247) 35%, rgb(179, 11, 247) 65%, rgb(255, 220, 181) 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text_vacancy_future {
+    text-align: right;
+    font-size: 22px;
+    font-family: Gilroy-ThinItalic;
+}
+
 .vacancy-block {
     flex: 1;
     background-color: #18191B;
@@ -65,15 +86,7 @@
 .order-font {
     color: #FFF32A;
     font-size: 32px;
-}
-
-.text_vacancy_future {
-    text-align: right;
-    font-size: 22px;
-    font-family: Gilroy-Bold;
-    background: linear-gradient(to right, rgb(28, 255, 238) 0%, rgb(102, 111, 247) 45%, rgb(179, 11, 247) 75%, rgb(255, 220, 181) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-align: left;
 }
 
 @media (max-width:767px){
@@ -83,6 +96,13 @@
         text-align: center;
         color: #c0c0c0;
         margin-bottom: 60px;
+    }
+
+    .paragraph_font_vacancy{
+        font-size: 20px;
+        color: white;
+        font-family: Gilroy-Bold;
+        text-align: right;
     }
 
     .vacancy-block {
@@ -160,6 +180,13 @@
         text-align: center;
         color: #c0c0c0;
         margin-bottom: 60px;
+    }
+
+    .paragraph_font_vacancy{
+        font-size: 24px;
+        color: white;
+        font-family: Gilroy-Bold;
+        text-align: right;
     }
 
     .vacancy-block {
