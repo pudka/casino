@@ -168,8 +168,19 @@
         text-align: right;
     }
 
+    .vacancy_cyber_slot_text {
+        font-size: 22px;
+        font-family: Gilroy-Bold;
+        background: linear-gradient(to right, rgb(28, 255, 238) 0%, rgb(102, 111, 247) 35%, rgb(179, 11, 247) 65%, rgb(255, 220, 181) 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .text_vacancy_future {
-        display: none;
+        margin-top: 40px;
+        text-align: right;
+        font-size: 12px;
+        font-family: Gilroy-ThinItalic;
     }
 }
 
@@ -253,7 +264,114 @@
         text-align: right;
     }
 
+    .vacancy_cyber_slot_text {
+        font-size: 22px;
+        font-family: Gilroy-Bold;
+        background: linear-gradient(to right, rgb(28, 255, 238) 0%, rgb(102, 111, 247) 35%, rgb(179, 11, 247) 65%, rgb(255, 220, 181) 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .text_vacancy_future {
+        margin-top: 40px;
+        text-align: right;
+        font-size: 14px;
+        font-family: Gilroy-ThinItalic;
+    }
+}
+
+@media (min-width: 951px) and (max-width:1090px){
+    .vacancy_text_title {
+        font-size: 24px;
+        font-family: GALS;
+        text-align: center;
+        color: #c0c0c0;
+        margin-bottom: 60px;
+    }
+
+    .paragraph_font_vacancy{
+        font-size: 24px;
+        color: white;
+        font-family: Gilroy-Bold;
+        text-align: right;
+    }
+
+    .vacancy-block {
+        flex: 1;
+        background-color: #18191B;
+        border-radius: 12px;
+        padding: 20px 30px;
+        margin: 0px 10px 70px 10px;
+    }
+
+    .block_font_image{
+        max-width: 100%;
+        height: 50%;
+        text-align: center;
+        padding: 0px 0px 10px 20px;
+        margin-bottom: 20px;
+    }
+
+    .font_image {
+        max-width: 100%;
+    }
+
+    .color-h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .vacancy-marker-list {
+        padding-left: 20px;
+        font-size: 20px;
+        font-family: Gilroy-ThinItalic;
+        color: #c0c0c0;
+    }
+
+    .text_font_vacancy_start{
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: GALS;
+        color: #c0c0c0;
+    }
+
+    .vacancy-details-block {
         display: none;
+    }
+
+    .link-details {
+        color: #D79E3E;
+        padding-right: 25px;
+        font-size: 22px;
+        position: relative;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .color-white {
+        color: #FFF !important;
+        font-family: Gilroy-Bold;
+        font-size: 22px;
+    }
+
+    .order-font {
+        color: #FFF32A;
+        font-size: 24px;
+        text-align: right;
+    }
+
+    .vacancy_cyber_slot_text {
+        font-size: 22px;
+        font-family: Gilroy-Bold;
+        background: linear-gradient(to right, rgb(28, 255, 238) 0%, rgb(102, 111, 247) 35%, rgb(179, 11, 247) 65%, rgb(255, 220, 181) 95%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text_vacancy_future {
+        margin-top: 40px;
+        text-align: right;
+        font-size: 14px;
+        font-family: Gilroy-ThinItalic;
     }
 }
