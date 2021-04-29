@@ -189,7 +189,7 @@ html, body {
     }
 }
 
-footer {
+.footer {
     display: flex;
     background-color: black;
     bottom: 0;
@@ -207,4 +207,8 @@ footer {
     color: darkgrey;
     font-size: 14px;
     margin:auto;
+}
+
+.text-style-last-block{
+    margin-bottom: 60px;
 }

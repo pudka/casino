@@ -45,7 +45,11 @@
         background-color: #18191B;
         border-radius: 12px;
         padding: 20px 30px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
+    }
+
+    .text-style-last-block{
+        margin-bottom: 20px;
     }
 
     .color-h1{
@@ -93,6 +97,10 @@
         border-radius: 12px;
         padding: 45px 55px;
         margin-left: 20px;
+    }
+
+    .text-style-last-block{
+        margin-bottom: 20px;
     }
 
     .color-h1{
