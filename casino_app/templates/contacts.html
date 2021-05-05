@@ -9,7 +9,7 @@
 <div class="container">
     <div class="row space-address">
         <div class="col-md-3 font_image">
-            <img src="{{ url_for('static', filename='images/patt7_text_inside.png') }}" alt="Girl in a jacket">
+            <img src="{{ url_for('static', filename='images/pattern9_text.png') }}" alt="CYBER SLOTS">
         </div>
         <div class="col-md-9">
             <h2 class="color-h">{{_('Контакти')}}</h2>
@@ -18,8 +18,83 @@
             <p>ukrslotgaming@gmail.com</p>
         </div>
     </div>
-
-
+    <div class="row space-address">
+        <div class="col-md-3 scrollmenu-left">
+            <p>{{ _('Виберіть локацію: ') }}</p>
+            <a href="#">{{ _('Київ') }}</a>
+            <a href="#">{{ _('Одеса') }}</a>
+            <a href="#">{{ _('Львів') }}</a>
+            <a href="#">{{ _('Дніпро') }}</a>
+            <a href="#">{{ _('Харків') }}</a>
+            <a href="#">{{ _('Київ') }}</a>
+            <a href="#">{{ _('Одеса') }}</a>
+            <a href="#">{{ _('Львів') }}</a>
+            <a href="#">{{ _('Дніпро') }}</a>
+            <a href="#">{{ _('Харків') }}</a>
+            <a href="#">{{ _('Київ') }}</a>
+            <a href="#">{{ _('Одеса') }}</a>
+            <a href="#">{{ _('Львів') }}</a>
+            <a href="#">{{ _('Дніпро') }}</a>
+            <a href="#">{{ _('Харків') }}</a>
+            <a href="#">{{ _('Київ') }}</a>
+            <a href="#">{{ _('Одеса') }}</a>
+            <a href="#">{{ _('Львів') }}</a>
+            <a href="#">{{ _('Дніпро') }}</a>
+            <a href="#">{{ _('Харків') }}</a>
+            <a href="#">{{ _('Київ') }}</a>
+            <a href="#">{{ _('Одеса') }}</a>
+            <a href="#">{{ _('Львів') }}</a>
+            <a href="#">{{ _('Дніпро') }}</a>
+            <a href="#">{{ _('Харків') }}</a>
+        </div>
+        <div class="col-md-6 map-container" id="map"></div>
+        <div class="col-md-3 scrollmenu-right">
+            <div class="about-location"> Location 1</div>
+            <div class="about-location"> Location 2</div>
+            <div class="about-location"> Location 3</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 2</div>
+            <div class="about-location"> Location 3</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 2</div>
+            <div class="about-location"> Location 3</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 2</div>
+            <div class="about-location"> Location 3</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+            <div class="about-location"> Location 4</div>
+        </div>
+    </div>
 </div>
 
+
+<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKrZHO21HGVZhqF58TPQ4aQvFKi2dVvfA&callback=initMap&libraries=&v=weekly"
+    async
+></script>
 {% endblock %}
