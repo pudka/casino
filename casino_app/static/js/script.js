@@ -17,7 +17,7 @@ jQuery('.link-details').click(function () {
 function initMap() {
 	// Map options
     var options = {
-        zoom: 8,
+        zoom: 4,
         center: { lat: 50.431759, lng: 30.517023 },
     }
 
@@ -25,21 +25,6 @@ function initMap() {
     var map = new
     google.maps.Map(document.getElementById('map'), options);
 
-    /*
-    // Add marker
-    var marker = new google.maps.Marker({
-    	position:{lat: 50.431759, lng: 30.517023},
-    	map: map
-    });
-
-    var infoWindow = new google.maps.InfoWindow({
-    	content:'Casino Royal'
-    });
-
-    marker.addListener('click', function(){
-    	infoWindow.open(map, marker);
-    })
-	*/
 	addMarker({
 		coords: {lat: 50.431759, lng: 30.517023},
 		content: '<h6>Kyiv, Cyber Slots</h3>'

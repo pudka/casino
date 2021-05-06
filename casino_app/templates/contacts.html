@@ -8,10 +8,10 @@
 
 <div class="container">
     <div class="row space-address">
-        <div class="col-md-3 font_image">
+        <div class="font_image">
             <img src="{{ url_for('static', filename='images/pattern9_text.png') }}" alt="CYBER SLOTS">
         </div>
-        <div class="col-md-9">
+        <div class="address-contacts-text">
             <h2 class="color-h">{{_('Контакти')}}</h2>
             <p>м. Київ, вул. ГнатаХоткевича, 12, оф. 177</p>
             <p>ЄДРПОУ 43660399</p>
@@ -19,73 +19,143 @@
         </div>
     </div>
     <div class="row space-address">
-        <div class="col-md-3 scrollmenu-left">
+        <div class="scrollmenu-left">
             <p>{{ _('Виберіть локацію: ') }}</p>
-            <a href="#">{{ _('Київ') }}</a>
-            <a href="#">{{ _('Одеса') }}</a>
-            <a href="#">{{ _('Львів') }}</a>
-            <a href="#">{{ _('Дніпро') }}</a>
-            <a href="#">{{ _('Харків') }}</a>
-            <a href="#">{{ _('Київ') }}</a>
-            <a href="#">{{ _('Одеса') }}</a>
-            <a href="#">{{ _('Львів') }}</a>
-            <a href="#">{{ _('Дніпро') }}</a>
-            <a href="#">{{ _('Харків') }}</a>
-            <a href="#">{{ _('Київ') }}</a>
-            <a href="#">{{ _('Одеса') }}</a>
-            <a href="#">{{ _('Львів') }}</a>
-            <a href="#">{{ _('Дніпро') }}</a>
-            <a href="#">{{ _('Харків') }}</a>
-            <a href="#">{{ _('Київ') }}</a>
-            <a href="#">{{ _('Одеса') }}</a>
-            <a href="#">{{ _('Львів') }}</a>
-            <a href="#">{{ _('Дніпро') }}</a>
-            <a href="#">{{ _('Харків') }}</a>
-            <a href="#">{{ _('Київ') }}</a>
-            <a href="#">{{ _('Одеса') }}</a>
-            <a href="#">{{ _('Львів') }}</a>
-            <a href="#">{{ _('Дніпро') }}</a>
-            <a href="#">{{ _('Харків') }}</a>
+            <a href="#">{{ _('Вінницька') }}</a>
+            <a href="#">{{ _('Волинська') }}</a>
+            <a href="#">{{ _('Дніпропетровська') }}</a>
+            <a href="#">{{ _('Донецька') }}</a>
+            <a href="#">{{ _('Житомирська') }}</a>
+            <a href="#">{{ _('Закарпатська') }}</a>
+            <a href="#">{{ _('Запорізька') }}</a>
+            <a href="#">{{ _('Івано-Франківська') }}</a>
+            <a href="#">{{ _('Київська') }}</a>
+            <a href="#">{{ _('Кіровоградська') }}</a>
+            <a href="#">{{ _('Луганська') }}</a>
+            <a href="#">{{ _('Львівська') }}</a>
+            <a href="#">{{ _('Миколаївська') }}</a>
+            <a href="#">{{ _('Одеська') }}</a>
+            <a href="#">{{ _('Полтавська') }}</a>
+            <a href="#">{{ _('Рівненська') }}</a>
+            <a href="#">{{ _('Сумська') }}</a>
+            <a href="#">{{ _('Тернопільська') }}</a>
+            <a href="#">{{ _('Харківська') }}</a>
+            <a href="#">{{ _('Херсонська') }}</a>
+            <a href="#">{{ _('Хмельницька') }}</a>
+            <a href="#">{{ _('Черкаська') }}</a>
+            <a href="#">{{ _('Чернівецька') }}</a>
+            <a href="#">{{ _('Чернігівська') }}</a>
         </div>
-        <div class="col-md-6 map-container" id="map"></div>
-        <div class="col-md-3 scrollmenu-right">
-            <div class="about-location"> Location 1</div>
-            <div class="about-location"> Location 2</div>
-            <div class="about-location"> Location 3</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 2</div>
-            <div class="about-location"> Location 3</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 2</div>
-            <div class="about-location"> Location 3</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 2</div>
-            <div class="about-location"> Location 3</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
-            <div class="about-location"> Location 4</div>
+        <div class="map-container" id="map"></div>
+        <div class="scrollmenu-right">
+            <div class="about-location">
+                <div class="game-room-item-header">
+                    <div>
+                        <span class="game_room_text">{{ _('Ігровий зал:') }}</span>
+                        <p class="title_game_room">{{ _('Cyber Slots Київ Sky Loft') }}</p>
+                    </div>
+                    <div>
+                        <span class="game_room_opening">{{ _('Відкриття:') }}</span>
+                        <p class="game_room_opening_text">{{ _('Незабаром') }}</p>
+                    </div>
+                </div>
+                <div class="game_room_details">
+                    <span class="game_room_text">{{ _('Адреса:') }}</span>
+                    <p class="game_room_address_text">{{ _('Еспланадна 17, Київ, 01001, Україна') }}</p>
+                    <span class="game_room_text">{{ _('Кількість ігрових автоматів:') }}</span>
+                    <p class="game_room_count_device">{{ _('85') }}</p>
+                </div>
+            </div>
+            <div class="about-location">
+                <div class="game-room-item-header">
+                    <div>
+                        <span class="game_room_text">{{ _('Ігровий зал:') }}</span>
+                        <p class="title_game_room">{{ _('Cyber Slots Київ Sky Loft') }}</p>
+                    </div>
+                    <div>
+                        <span class="game_room_opening">{{ _('Відкриття:') }}</span>
+                        <p class="game_room_opening_text">{{ _('Незабаром') }}</p>
+                    </div>
+                </div>
+                <div class="game_room_details">
+                    <span class="game_room_text">{{ _('Адреса:') }}</span>
+                    <p class="game_room_address_text">{{ _('Еспланадна 17, Київ, 01001, Україна') }}</p>
+                    <span class="game_room_text">{{ _('Кількість ігрових автоматів:') }}</span>
+                    <p class="game_room_count_device">{{ _('85') }}</p>
+                </div>
+            </div>
+            <div class="about-location">
+                <div class="game-room-item-header">
+                    <div>
+                        <span class="game_room_text">{{ _('Ігровий зал:') }}</span>
+                        <p class="title_game_room">{{ _('Cyber Slots Київ Sky Loft') }}</p>
+                    </div>
+                    <div>
+                        <span class="game_room_opening">{{ _('Відкриття:') }}</span>
+                        <p class="game_room_opening_text">{{ _('Незабаром') }}</p>
+                    </div>
+                </div>
+                <div class="game_room_details">
+                    <span class="game_room_text">{{ _('Адреса:') }}</span>
+                    <p class="game_room_address_text">{{ _('Еспланадна 17, Київ, 01001, Україна') }}</p>
+                    <span class="game_room_text">{{ _('Кількість ігрових автоматів:') }}</span>
+                    <p class="game_room_count_device">{{ _('85') }}</p>
+                </div>
+            </div>
+            <div class="about-location">
+                <div class="game-room-item-header">
+                    <div>
+                        <span class="game_room_text">{{ _('Ігровий зал:') }}</span>
+                        <p class="title_game_room">{{ _('Cyber Slots Київ Sky Loft') }}</p>
+                    </div>
+                    <div>
+                        <span class="game_room_opening">{{ _('Відкриття:') }}</span>
+                        <p class="game_room_opening_text">{{ _('Незабаром') }}</p>
+                    </div>
+                </div>
+                <div class="game_room_details">
+                    <span class="game_room_text">{{ _('Адреса:') }}</span>
+                    <p class="game_room_address_text">{{ _('Еспланадна 17, Київ, 01001, Україна') }}</p>
+                    <span class="game_room_text">{{ _('Кількість ігрових автоматів:') }}</span>
+                    <p class="game_room_count_device">{{ _('85') }}</p>
+                </div>
+            </div>
+            <div class="about-location">
+                <div class="game-room-item-header">
+                    <div>
+                        <span class="game_room_text">{{ _('Ігровий зал:') }}</span>
+                        <p class="title_game_room">{{ _('Cyber Slots Київ Sky Loft') }}</p>
+                    </div>
+                    <div>
+                        <span class="game_room_opening">{{ _('Відкриття:') }}</span>
+                        <p class="game_room_opening_text">{{ _('Незабаром') }}</p>
+                    </div>
+                </div>
+                <div class="game_room_details">
+                    <span class="game_room_text">{{ _('Адреса:') }}</span>
+                    <p class="game_room_address_text">{{ _('Еспланадна 17, Київ, 01001, Україна') }}</p>
+                    <span class="game_room_text">{{ _('Кількість ігрових автоматів:') }}</span>
+                    <p class="game_room_count_device">{{ _('85') }}</p>
+                </div>
+            </div>
+            <div class="about-location">
+                <div class="game-room-item-header">
+                    <div>
+                        <span class="game_room_text">{{ _('Ігровий зал:') }}</span>
+                        <p class="title_game_room">{{ _('Cyber Slots Київ Sky Loft') }}</p>
+                    </div>
+                    <div>
+                        <span class="game_room_opening">{{ _('Відкриття:') }}</span>
+                        <p class="game_room_opening_text">{{ _('Незабаром') }}</p>
+                    </div>
+                </div>
+                <div class="game_room_details">
+                    <span class="game_room_text">{{ _('Адреса:') }}</span>
+                    <p class="game_room_address_text">{{ _('Еспланадна 17, Київ, 01001, Україна') }}</p>
+                    <span class="game_room_text">{{ _('Кількість ігрових автоматів:') }}</span>
+                    <p class="game_room_count_device">{{ _('85') }}</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
