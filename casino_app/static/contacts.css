@@ -167,12 +167,12 @@
 
     .scrollmenu-right {
         max-width: 100%;
-        width: 300px;
         max-height: 180px;
         background-color: black;
         margin-left: 0px;
         margin-bottom: 0px;
         display: inline-flex;
+        border-radius: 12px;
     }
 
     .about-location {
@@ -183,6 +183,7 @@
         margin-left: 0px;
         margin-right: 15px;
         margin-bottom: 10px;
+        border-radius: 12px;
     }
 
     .game-room-item-header {
@@ -235,6 +236,7 @@
         margin-left: 0px;
         margin-top: 15px;
         margin-bottom: 45px;
+        border-radius: 12px;
     }
 }
 
