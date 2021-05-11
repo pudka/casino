@@ -24,43 +24,74 @@ function initMap() {
     // New map
     var map = new
     google.maps.Map(document.getElementById('map'), options);
+    var location = document.getElementById('select_location').value;
 
-    setInterval(getLocation, 5000);
+    showDetailsLocation();
+    setLocation();
 
-	function getLocation() {
-		$.post('http://0.0.0.0:51413/contacts', {}, function(){
-	    	var select_location = document.getElementById('select_location');
-	    	location = select_location.options[select_location.selectedIndex].value == 'all';
+    function showDetailsLocation(){
+    	switch(location) {
+			case 'all':
+				showElementById('ZirkaHotel_Kirovograd');
+				showElementById('RoyalGrandHotel_Kyiv');
+				showElementById('ZenithHotel_Odessa');
+				break;
+			case 'Odeska':
+				showElementById('ZenithHotel_Odessa');
+				hideElementById('RoyalGrandHotel_Kyiv');
+				hideElementById('ZirkaHotel_Kirovograd');
+				break;
+			case 'Kyivska':
+				showElementById('RoyalGrandHotel_Kyiv');
+				hideElementById('ZenithHotel_Odessa');
+				hideElementById('ZirkaHotel_Kirovograd');
+				break;
+		}
+    }
 
-	    	if ( location == 'all' ) {
-		    	addMarker({
+    function showElementById(id){
+		document.getElementById(id).hidden = false;
+    }
+
+    function hideElementById(id){
+    	document.getElementById(id).hidden = true;
+    }
+
+    function setLocation() {
+		switch(location) {
+			case 'all':
+				addMarker({
 					coords: {lat: 48.51649271602329, lng: 32.26452466947545},
-					content: '<p>Cyber Slots in Zirka Hotel, Kyiv</p>'
+					content: '<p>Cyber Slots in Zirka Hotel, Kirovograd</p>'
 				});
-
 				addMarker({
 					coords: {lat: 50.44671781005228, lng: 30.50906041372692},
 					content: '<p>Cyber Slots in Royal Grand Hotel, Kyiv</p>'
 				});
-
 				addMarker({
 					coords: {lat: 46.47128011885416, lng: 30.7385034405681},
 					content: '<h6>Cyber Slots in Zenith Hotel, Odessa</h3>'
 				});
-		    }
-
-		    if (location == 'Kyivska') {
-		    	addMarker({
-					coords: {lat: 48.51649271602329, lng: 32.26452466947545},
-					content: '<p>Cyber Slots in Zirka Hotel, Kyiv</p>'
+				break;
+			case 'Odeska':
+				addMarker({
+					coords: {lat: 46.47128011885416, lng: 30.7385034405681},
+					content: '<h6>Cyber Slots in Zenith Hotel, Odessa</h3>'
 				});
-
+				break;
+			case 'Kyivska':
 				addMarker({
 					coords: {lat: 50.44671781005228, lng: 30.50906041372692},
 					content: '<p>Cyber Slots in Royal Grand Hotel, Kyiv</p>'
 				});
-		    }
-		});
+				break;
+			case 'Kirovogradska':
+				addMarker({
+					coords: {lat: 48.51649271602329, lng: 32.26452466947545},
+					content: '<p>Cyber Slots in Zirka Hotel, Kirovograd</p>'
+				});
+				break;
+		}
     }
 
     function addMarker(props) {

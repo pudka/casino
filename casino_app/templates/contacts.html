@@ -21,68 +21,64 @@
     <div class="row space-address">
         <div class="select-block">
             <label for="select_location" class="select_label">{{ _('Виберіть локацію:') }}</label>
-            <select id="select_location" class="select">
+            <select id="select_location" class="select" onchange="initMap()">
                 <option value="all">{{ _('Усі') }}</option>
                 <option value="Kyivska">{{ _('Київська') }}</option>
-                <option value="Vinnytska">{{ _('Вінницька') }}</option>
+                <option value="Kirovogradska">{{ _('Кіровоградська') }}</option>
                 <option value="Odeska">{{ _('Одеська') }}</option>
-                <option value="Poltavska">{{ _('Полтавська') }}</option>
-                <option value="Rivnenska">{{ _('Рівненська') }}</option>
-                <option value="Kharkivska">{{ _('Харківська') }}</option>
-                <option value="Zaporizhska">{{ _('Запорізька') }}</option>
             </select>
         </div>
         <div class="scrollmenu-right">
-            <div class="about-location">
+            <div class="about-location" id="ZirkaHotel_Kirovograd">
                 <div class="game-room-item-header">
                     <div>
                         <span class="game_room_text">{{ _('Ігровий зал:') }}</span>
-                        <p class="title_game_room">{{ _('Cyber Slots Київ Sky Loft') }}</p>
+                        <p class="title_game_room">{{ _('Cyber Slots в Zirka Hotel') }}</p>
                     </div>
                     <div>
                         <span class="game_room_opening">{{ _('Відкриття:') }}</span>
                         <p class="game_room_opening_text">{{ _('Незабаром') }}</p>
                     </div>
                 </div>
-                <div class="game_room_details">
+                <div>
                     <span class="game_room_text">{{ _('Адреса:') }}</span>
-                    <p class="game_room_address_text">{{ _('Еспланадна 17, Київ, 01001, Україна') }}</p>
+                    <p class="game_room_address_text">{{ _('вул. Гагаріна, 1А, Кропивницький, Кіровоградська область, 25000') }}</p>
                     <span class="game_room_text">{{ _('Кількість ігрових автоматів:') }}</span>
                     <p class="game_room_count_device">{{ _('85') }}</p>
                 </div>
             </div>
-            <div class="about-location">
+            <div class="about-location" id="RoyalGrandHotel_Kyiv">
                 <div class="game-room-item-header">
                     <div>
                         <span class="game_room_text">{{ _('Ігровий зал:') }}</span>
-                        <p class="title_game_room">{{ _('Cyber Slots Київ Sky Loft') }}</p>
+                        <p class="title_game_room">{{ _('Cyber Slots в Royal Grand Hotel') }}</p>
                     </div>
                     <div>
                         <span class="game_room_opening">{{ _('Відкриття:') }}</span>
                         <p class="game_room_opening_text">{{ _('Незабаром') }}</p>
                     </div>
                 </div>
-                <div class="game_room_details">
+                <div>
                     <span class="game_room_text">{{ _('Адреса:') }}</span>
-                    <p class="game_room_address_text">{{ _('Еспланадна 17, Київ, 01001, Україна') }}</p>
+                    <p class="game_room_address_text">{{ _('вул. Богдана Хмельницького, 31/27, Київ, 01030') }}</p>
                     <span class="game_room_text">{{ _('Кількість ігрових автоматів:') }}</span>
                     <p class="game_room_count_device">{{ _('85') }}</p>
                 </div>
             </div>
-            <div class="about-location">
+            <div class="about-location" id="ZenithHotel_Odessa">
                 <div class="game-room-item-header">
                     <div>
                         <span class="game_room_text">{{ _('Ігровий зал:') }}</span>
-                        <p class="title_game_room">{{ _('Cyber Slots Київ Sky Loft') }}</p>
+                        <p class="title_game_room">{{ _('Cyber Slots в Zenith Hotel') }}</p>
                     </div>
                     <div>
                         <span class="game_room_opening">{{ _('Відкриття:') }}</span>
                         <p class="game_room_opening_text">{{ _('Незабаром') }}</p>
                     </div>
                 </div>
-                <div class="game_room_details">
+                <div>
                     <span class="game_room_text">{{ _('Адреса:') }}</span>
-                    <p class="game_room_address_text">{{ _('Еспланадна 17, Київ, 01001, Україна') }}</p>
+                    <p class="game_room_address_text">{{ _('вул. Мала Арнаутська, 71, Одеса, Одеська область, 65000') }}</p>
                     <span class="game_room_text">{{ _('Кількість ігрових автоматів:') }}</span>
                     <p class="game_room_count_device">{{ _('85') }}</p>
                 </div>
