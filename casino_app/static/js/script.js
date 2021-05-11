@@ -46,6 +46,11 @@ function initMap() {
 				hideElementById('ZenithHotel_Odessa');
 				hideElementById('ZirkaHotel_Kirovograd');
 				break;
+			case 'Kirovogradska':
+				hideElementById('RoyalGrandHotel_Kyiv');
+				hideElementById('ZenithHotel_Odessa');
+				showElementById('ZirkaHotel_Kirovograd');
+				break;
 		}
     }
 
