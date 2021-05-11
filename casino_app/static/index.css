@@ -31,6 +31,16 @@
     margin-top: 15px;
 }
 
+.text-style-block {
+    flex: 1;
+    background-image: url(images/background_blocks.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    padding: 45px 55px;
+    margin-bottom: 30px;
+    min-height: 250px;
+}
+
 @media (max-width:767px){
     .block_font_image{
         max-width: 100%;
@@ -46,7 +56,8 @@
 
     .text-style-block {
         flex: 1;
-        background-color: #18191B;
+        background-image: url(images/background_blocks.jpg);
+        background-size: cover;
         border-radius: 12px;
         padding: 20px 30px;
         margin-bottom: 0px;
@@ -101,7 +112,8 @@
 
     .text-style-block {
         flex: 1;
-        background-color: #18191B;
+        background-image: url(images/background_blocks.jpg);
+        background-size: cover;
         border-radius: 12px;
         padding: 45px 55px;
         margin-left: 20px;
