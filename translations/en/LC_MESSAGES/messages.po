@@ -1,0 +1,408 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: casino\n"
+"Language: en\n"
+
+#: casino_app/templates/about.html:14
+msgid "Про компанію"
+msgstr "About company"
+
+#: casino_app/templates/about.html:16
+msgid "ТОВ “Мультігеймпгрупп” — компанія-резидент України, створена\n"
+"                командою із більш ніж 15-тирічним досвідом організації, управління\n"
+"                та проведення азартних ігор на території України та за її межами. Після вступу у дію Закону України\n"
+"                «Про державне регулювання діяльності щодо організації та проведення азартних ігор», під брендом CYBER SLOTS\n"
+"                компанія розвиває власну мережу ігрових закладів в містах України та готує до запуску одноіменний\n"
+"                онлайн-проект. Ми любимо гру за емоції, які вона дарує людям.\n"
+"                За азарт, свободу, непередбачуваність, виграші та програші. Мизнаємо,\n"
+"                що гра на гроші робить всі ці відчуття гостріше, але ми так само знаємо,\n"
+"                що гра тільки заради грошей робить саму гру безглуздою. "
+msgstr "LLC \"Multigamegroup\" - a resident company of Ukraine, established\n"
+"                a team with more than 15 years of experience in organization, management\n"
+"                and gambling on the territory of Ukraine and abroad. After the entry into force of the Law of Ukraine\n"
+"                \"On state regulation of activities related to the organization and conduct of gambling\", under the brand CYBER SLOTS\n"
+"                the company is developing its own network of gambling establishments in the cities of Ukraine and is preparing to launch the eponymous one\n"
+"                online project. We love the game for the emotions it gives people.\n"
+"                For excitement, freedom, unpredictability, winnings and losses. We know,\n"
+"                that gambling makes all these feelings sharper, but we also know\n"
+"                that the game just for the sake of money makes the game itself pointless. "
+
+#: casino_app/templates/about.html:33
+msgid "Географія"
+msgstr "geography"
+
+#: casino_app/templates/about.html:35
+msgid "Компанія уклала договори на відкриття гральних закладів в Києві, Одесі, Львові, Черкасах,\n"
+"                Хмельницькому, Херсоні та Рівному. "
+msgstr "The company has signed agreements to open gambling establishments in Kyiv, Odesa, Lviv, Cherkasy,\n"
+"                Khmelnytsky, Kherson and Rivne. "
+
+#: casino_app/templates/about.html:45
+msgid "Наша місія"
+msgstr "Our mission"
+
+#: casino_app/templates/about.html:47
+msgid "Наша місія — зробити гральний бізнес суспільною нормою. Ми йдемо до того,\n"
+"                щоб зробити казино ще одним способом дозвілля, розширити кругозір людей і\n"
+"                показати багатогранність вибору.\n"
+"\n"
+"                Ігри виконують важливу функцію в суспільстві, даючи можливість легітимного виходу емоцій за межі\n"
+"                повсякденної рутини та порядку. Ми дозволяємо гравцям випробувати весь спектр емоцій,\n"
+"                які може запропонувати сама гра."
+msgstr "Our mission is to make gambling a social norm. We go to\n"
+"                to make casinos another way of leisure, broaden people's horizons and\n"
+"                show the versatility of choice.\n"
+"\n"
+"                Games play an important role in society, allowing emotions to legitimately go beyond\n"
+"                daily routine and order. We allow players to experience the full range of emotions,\n"
+"                which can offer the game itself."
+
+#: casino_app/templates/contacts.html:15 casino_app/templates/layout.html:42
+msgid "Контакти"
+msgstr "Contacts"
+
+#: casino_app/templates/contacts.html:23
+msgid "Виберіть локацію:"
+msgstr "Choose a location:"
+
+#: casino_app/templates/contacts.html:25
+msgid "Усі"
+msgstr "Everyone"
+
+#: casino_app/templates/contacts.html:26
+msgid "Київська"
+msgstr "Kyiv"
+
+#: casino_app/templates/contacts.html:27
+msgid "Вінницька"
+msgstr "Vinnytsia"
+
+#: casino_app/templates/contacts.html:28
+msgid "Одеська"
+msgstr "Odessa"
+
+#: casino_app/templates/contacts.html:29
+msgid "Полтавська"
+msgstr "Poltava"
+
+#: casino_app/templates/contacts.html:30
+msgid "Рівненська"
+msgstr "Rivne"
+
+#: casino_app/templates/contacts.html:31
+msgid "Харківська"
+msgstr "Kharkiv"
+
+#: casino_app/templates/contacts.html:32
+msgid "Запорізька"
+msgstr "Zaporozhye"
+
+#: casino_app/templates/contacts.html:39 casino_app/templates/contacts.html:57
+#: casino_app/templates/contacts.html:75
+msgid "Ігровий зал:"
+msgstr "Game room:"
+
+#: casino_app/templates/contacts.html:40 casino_app/templates/contacts.html:58
+#: casino_app/templates/contacts.html:76
+msgid "Cyber Slots Київ Sky Loft"
+msgstr "Cyber Slots Kyiv Sky Loft"
+
+#: casino_app/templates/contacts.html:43 casino_app/templates/contacts.html:61
+#: casino_app/templates/contacts.html:79
+msgid "Відкриття:"
+msgstr "Discovery:"
+
+#: casino_app/templates/contacts.html:44 casino_app/templates/contacts.html:62
+#: casino_app/templates/contacts.html:80
+msgid "Незабаром"
+msgstr "Soon"
+
+#: casino_app/templates/contacts.html:48 casino_app/templates/contacts.html:66
+#: casino_app/templates/contacts.html:84
+msgid "Адреса:"
+msgstr "Address:"
+
+#: casino_app/templates/contacts.html:49 casino_app/templates/contacts.html:67
+#: casino_app/templates/contacts.html:85
+msgid "Еспланадна 17, Київ, 01001, Україна"
+msgstr "Esplanadna 17, Kyiv, 01001, Ukraine"
+
+#: casino_app/templates/contacts.html:50 casino_app/templates/contacts.html:68
+#: casino_app/templates/contacts.html:86
+msgid "Кількість ігрових автоматів:"
+msgstr "Number of slot machines:"
+
+#: casino_app/templates/contacts.html:51 casino_app/templates/contacts.html:69
+#: casino_app/templates/contacts.html:87
+msgid "85"
+msgstr "85"
+
+#: casino_app/templates/index.html:15
+msgid "Азартні ігри майбутнього"
+msgstr "Gambling of the future"
+
+#: casino_app/templates/index.html:35
+msgid "Гарні часи. Гарна гра."
+msgstr "Good times. Good game."
+
+#: casino_app/templates/index.html:38
+msgid "Ми сповідуємо принцип Good Time — Good Game."
+msgstr "We profess the principle of Good Time - Good Game."
+
+#: casino_app/templates/index.html:40
+msgid "Це означає, що час, проведений в наших закладах, складеться в скарбничку приємних\n"
+"                        вражень і зараховується до одного з типів задоволень.\n"
+"                        Гра — це процес і будь-який результат є виграшним."
+msgstr "This means that the time spent in our institutions will be a treasure trove of pleasant\n"
+"                        impressions and is considered one of the types of pleasures.\n"
+"                        The game is a process and any result is a winner."
+
+#: casino_app/templates/index.html:53
+msgid "Відповідальність за гру"
+msgstr "Responsibility for the game"
+
+#: casino_app/templates/index.html:74
+msgid "Цінності"
+msgstr "Values"
+
+#: casino_app/templates/layout.html:39
+msgid "Вакансії"
+msgstr "Vacancies"
+
+#: casino_app/templates/layout.html:45
+msgid "Про нас"
+msgstr "About us"
+
+#: casino_app/templates/layout.html:48
+msgid "Увійти"
+msgstr "Log in"
+
+#: casino_app/templates/layout.html:51
+msgid "Реєстрація"
+msgstr "Registration"
+
+#: casino_app/templates/vacancy.html:9
+msgid "Cyber Slots дозволяє гравцям випробувати весь спектр емоцій, які може запропонувати\n"
+"        сама гра, де гра – це процес і будь – який результат є виграшним."
+msgstr "Cyber Slots allows players to experience the full range of emotions it has to offer\n"
+"        the game itself, where the game is a process and any result is winning."
+
+#: casino_app/templates/vacancy.html:12
+msgid "Довгострокові відносини – це наш пріоритет, ми будуємо їх на довірі та непорушних законах, та\n"
+"                пропонуємо Вам працювати з нами там, де азарт, фанова атмосфера, справжні емоції, драйв, сучасні\n"
+"                технології, абсолютно новий підхід до гри на новому обладнанні, в нових ігрових залах Cyber Slots."
+msgstr "Long-term relationships are our priority, we build them on trust and inviolable laws, and\n"
+"                we offer you to work with us where excitement, fan atmosphere, real emotions, drive, modern\n"
+"                technology, a completely new approach to playing on new equipment, in the new Cyber Slots gaming halls."
+
+#: casino_app/templates/vacancy.html:21
+msgid "Адміністратор"
+msgstr "Administrator"
+
+#: casino_app/templates/vacancy.html:22
+msgid "Ми про задоволення від процесу гри, а не тільки про виграш та розкішне \n"
+"                життя. Сучасний прогрес позбавив людину чогось важливого – відчуття ризику, азарту та можливості відчути \n"
+"                притік адреналіну. Ми надаємо можливість легітимному виходу емоцій за межі повсякденної рутини та порядку."
+msgstr "We are talking about the pleasure of the game process, not just about winning and luxury\n"
+"                life. Modern progress has deprived man of something important - a sense of risk, excitement and opportunity to feel\n"
+"                adrenaline rush. We provide an opportunity for legitimate emotions to go beyond the daily routine and order."
+
+#: casino_app/templates/vacancy.html:26 casino_app/templates/vacancy.html:65
+#: casino_app/templates/vacancy.html:105 casino_app/templates/vacancy.html:145
+#: casino_app/templates/vacancy.html:184
+msgid "Детальніше"
+msgstr "Read more"
+
+#: casino_app/templates/vacancy.html:28 casino_app/templates/vacancy.html:67
+#: casino_app/templates/vacancy.html:107 casino_app/templates/vacancy.html:147
+#: casino_app/templates/vacancy.html:186
+msgid "Ви:"
+msgstr "You:"
+
+#: casino_app/templates/vacancy.html:30
+msgid "маєте досвід у зустрічі та  обслуговуванні гостей, досвід роботи з персоналом;"
+msgstr "have experience in meeting and serving guests, experience working with staff;"
+
+#: casino_app/templates/vacancy.html:31
+msgid "розумієте, що таке сервіс преміум классу, створення та підтримка доброзичливої , приємної\n"
+"                        атмосфери та стандартів гостинності, маєте презентабельну зовнішність;"
+msgstr "understand what a premium service is, creating and maintaining a friendly, enjoyable\n"
+"                        atmosphere and standards of hospitality, have a presentable appearance;"
+
+#: casino_app/templates/vacancy.html:33
+msgid "володієте відмінними комунікативними навичками (російська \\ англійська мови бажано) та\n"
+"                        готові відповідати ексклюзивному рівню закладу;"
+msgstr "have excellent communication skills (Russian / English preferably) and\n"
+"                        ready to meet the exclusive level of the institution;"
+
+#: casino_app/templates/vacancy.html:35 casino_app/templates/vacancy.html:75
+#: casino_app/templates/vacancy.html:112 casino_app/templates/vacancy.html:155
+#: casino_app/templates/vacancy.html:194
+msgid "готові працювати в змінному графіку;"
+msgstr "ready to work in a variable schedule;"
+
+#: casino_app/templates/vacancy.html:36 casino_app/templates/vacancy.html:76
+#: casino_app/templates/vacancy.html:156
+msgid "хочете отримувати  конкурентну зарплату та  регулярні бонуси."
+msgstr "want to get a competitive salary and regular bonuses."
+
+#: casino_app/templates/vacancy.html:38 casino_app/templates/vacancy.html:78
+#: casino_app/templates/vacancy.html:116 casino_app/templates/vacancy.html:158
+#: casino_app/templates/vacancy.html:197
+msgid "Ми:"
+msgstr "We:"
+
+#: casino_app/templates/vacancy.html:40 casino_app/templates/vacancy.html:118
+#: casino_app/templates/vacancy.html:160
+msgid "пропонуємо  конкурентну  зарплату + бонуси;"
+msgstr "we offer a competitive salary + bonuses;"
+
+#: casino_app/templates/vacancy.html:41 casino_app/templates/vacancy.html:81
+#: casino_app/templates/vacancy.html:161 casino_app/templates/vacancy.html:200
+msgid "пропонуємо оплачуване  навчання успішним кандидатам  та  перспективу подальшого  розвитку;"
+msgstr "we offer paid training to successful candidates and prospects for further development;"
+
+#: casino_app/templates/vacancy.html:42 casino_app/templates/vacancy.html:82
+#: casino_app/templates/vacancy.html:121 casino_app/templates/vacancy.html:162
+#: casino_app/templates/vacancy.html:201
+msgid "маємо власну корпоративну культуру та готові  постійно навчати та мотивувати свою команду."
+msgstr "we have our own corporate culture and are ready to constantly train and motivate our team."
+
+#: casino_app/templates/vacancy.html:44 casino_app/templates/vacancy.html:84
+#: casino_app/templates/vacancy.html:123 casino_app/templates/vacancy.html:164
+#: casino_app/templates/vacancy.html:203
+msgid "ЗРОБИ СТАВКУ НА СВОЄ МАЙБУТНЄ РАЗОМ з "
+msgstr "BET ON YOUR FUTURE TOGETHER with "
+
+#: casino_app/templates/vacancy.html:49 casino_app/templates/vacancy.html:89
+#: casino_app/templates/vacancy.html:128 casino_app/templates/vacancy.html:169
+#: casino_app/templates/vacancy.html:208
+msgid "Заповнити анкету"
+msgstr "Complete the questionnaire"
+
+#: casino_app/templates/vacancy.html:60
+msgid "Бармен"
+msgstr "Bartender"
+
+#: casino_app/templates/vacancy.html:61
+msgid "Ми любимо гру за емоції, які вона дарує людям. За можливість покричати, \n"
+"                пережити, обійняти сусіда в пориві радості або високо підняти келих та дзвінко вдарити бокалом ігристого \n"
+"                в момент вибуху емоцій."
+msgstr "We love the game for the emotions it gives people. For the opportunity to shout,\n"
+"                survive, hug a neighbor in a fit of joy or raise a glass high and loudly hit a glass of sparkling wine\n"
+"                at the time of the explosion of emotions."
+
+#: casino_app/templates/vacancy.html:69
+msgid "маєте досвід обслуговування гостей за барною стійкою, маєте презентабельну\n"
+"                        зовнішність;"
+msgstr "have experience serving guests at the bar, have a presentable\n"
+"                        appearance;"
+
+#: casino_app/templates/vacancy.html:71
+msgid "розумієте, що таке дотримуватись стандартів сервісу  обслуговування та гостинності,\n"
+"                        створення та підтримка доброзичливої , приємної атмосфери;"
+msgstr "understand what it is like to adhere to the standards of service and hospitality,\n"
+"                        creating and maintaining a friendly, pleasant atmosphere;"
+
+#: casino_app/templates/vacancy.html:73
+msgid "володієте відмінними комунікативними навичками(російська \\ англійська мови бажано) та\n"
+"                        готові відповідати ексклюзивному рівню закладу;"
+msgstr "have excellent communication skills (Russian / English preferably) and\n"
+"                        ready to meet the exclusive level of the institution;"
+
+#: casino_app/templates/vacancy.html:80
+msgid "пропонуємо  конкурентну  зарплату +бонуси;"
+msgstr "we offer a competitive salary + bonuses;"
+
+#: casino_app/templates/vacancy.html:100
+msgid "Касир"
+msgstr "Cashier"
+
+#: casino_app/templates/vacancy.html:101
+msgid "Ми вважаємо, що розслабитися і віддатися грі та фану можна тільки там,\n"
+"                де відчуваєш себе у цілковитій безпеці. Ми дотримуємося приватності гравців і надійно охороняємо їх персональні дані. \n"
+"                Сучасні технології та експертні знання дозволяють зробити нам це."
+msgstr "We believe that you can relax and indulge in the game and the fan only there,\n"
+"                where you feel completely safe. We respect the privacy of players and securely protect their personal data.\n"
+"                Modern technology and expertise allow us to do this."
+
+#: casino_app/templates/vacancy.html:109
+msgid "маєте досвід касової дисципліни,  роботи з готівкою та безготівковими розрахунками;"
+msgstr "have experience in cash discipline, work with cash and non-cash payments;"
+
+#: casino_app/templates/vacancy.html:111
+msgid "навички роботи з великим об’ємом інформації;"
+msgstr "skills to work with a large amount of information;"
+
+#: casino_app/templates/vacancy.html:113
+msgid "дисциплінованість, відповідальність, бажання і здатність до навчання;"
+msgstr "discipline, responsibility, desire and ability to learn;"
+
+#: casino_app/templates/vacancy.html:114
+msgid "хочете отримувати конкурентну зарплату та регулярні бонуси."
+msgstr "want to get a competitive salary and regular bonuses."
+
+#: casino_app/templates/vacancy.html:119
+msgid "отримання всіх необхідних навичок для роботи в період стажування  та  перспективу\n"
+"                        подальшого  розвитку;"
+msgstr "obtaining all the necessary skills to work during the internship and prospects\n"
+"                        further development;"
+
+#: casino_app/templates/vacancy.html:139
+msgid "Оператор"
+msgstr "Operator"
+
+#: casino_app/templates/vacancy.html:140
+msgid "Наш сервіс – це персоніфікація, індивідуальний підхід. Ми хочемо \n"
+"                зробити все найкраще для нашого гостя та вибудовуємо довгострокові відносини через системи лояльності \n"
+"                та сучасні технологічні рішення. Ми бажаємо дивувати та запам’ятовуватись. Cyber Slots - це азартні ігри \n"
+"                майбутнього!"
+msgstr "Our service is a personification, an individual approach. We want\n"
+"                do our best for our guest and build long-term relationships through loyalty systems\n"
+"                and modern technological solutions. We want to surprise and be remembered. Cyber Slots is gambling\n"
+"                of the future!"
+
+#: casino_app/templates/vacancy.html:149
+msgid "маєте досвід в обслуговуванні клієнтів, розумієте, що таке сервіс преміум классу,\n"
+"                        створення та підтримка доброзичливої , приємної атмосфери та стандартів гостинності,\n"
+"                        маєте презентабельну зовнішність;"
+msgstr "you have experience in customer service, you understand what a premium service is,\n"
+"                        creation and maintenance of a friendly, pleasant atmosphere and standards of hospitality,\n"
+"                        have a presentable appearance;"
+
+#: casino_app/templates/vacancy.html:153 casino_app/templates/vacancy.html:192
+msgid "володієте відмінними комунікативними навичками(російська \\ англійська мови бажано) та\n"
+"                        готові відповідати ексклюзивному рівню закладу; "
+msgstr "have excellent communication skills (Russian / English preferably) and\n"
+"                        ready to meet the exclusive level of the institution; "
+
+#: casino_app/templates/vacancy.html:180
+msgid "Хостес"
+msgstr "Hostess"
+
+#: casino_app/templates/vacancy.html:181
+msgid "Ми просуваємо свідомий підхід до азартних ігор. \n"
+"                Убезпечуємо нашого гостя на старті, щоб взяти максимум задоволення від процесу гри."
+msgstr "We promote a conscious approach to gambling.\n"
+"                We provide our guest at the start to get the most out of the game."
+
+#: casino_app/templates/vacancy.html:188
+msgid "маєте досвід зустрічі  гостей, розумієте, що таке сервіс преміум классу, створення та\n"
+"                        підтримка доброзичливої, приємної атмосфери та стандартів гостинності, маєте презентабельну\n"
+"                        зовнішність;"
+msgstr "have experience of meeting guests, understand what is a premium service, creation and\n"
+"                        support of a friendly, pleasant atmosphere and standards of hospitality, you have a presentable\n"
+"                        appearance;"
+
+#: casino_app/templates/vacancy.html:195
+msgid "хочете отримувати  стабільну зарплату та  регулярні бонуси."
+msgstr "want to get a stable salary and regular bonuses."
+
+#: casino_app/templates/vacancy.html:199
+msgid "пропонуємо  стабільну  зарплату + бонуси;"
+msgstr "we offer a stable salary + bonuses;"
+
