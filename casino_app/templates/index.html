@@ -1,12 +1,88 @@
 {% extends "layout.html" %}
 
 {% block head %}
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/ui-lightness/jquery-ui.css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+
 {% endblock %}
 
 {% block content %}
 <main role="main">
     <div class="container">
+        <div class="row roulette-block">
+            <div class="roulette_container" >
+                <div class="roulette" style="display:none;">
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter2.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter1.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter3.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter4.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter5.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter6.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter7.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter8.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter9.png') }}"/>
+                </div>
+            </div>
+            <div class="roulette_container" >
+                <div class="roulette" style="display:none;">
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter2.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter1.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter3.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter4.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter5.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter6.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter7.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter8.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter9.png') }}"/>
+                </div>
+            </div>
+            <div class="roulette_container" >
+                <div class="roulette" style="display:none;">
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter2.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter1.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter3.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter4.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter5.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter6.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter7.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter8.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter9.png') }}"/>
+                </div>
+            </div>
+            <div class="roulette_container" >
+                <div class="roulette" style="display:none;">
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter2.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter1.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter3.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter4.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter5.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter6.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter7.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter8.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter9.png') }}"/>
+                </div>
+            </div>            
+            <div class="roulette_container" >
+                <div class="roulette" style="display:none;">
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter2.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter1.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter3.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter4.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter5.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter6.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter7.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter8.png') }}"/>
+                    <img class="rot" src="{{ url_for('static', filename='images/roullete_patter9.png') }}"/>
+                </div>
+            </div>
+        </div>
+        <div class="btn_container">
+            <p>
+                <button class="btn btn-large btn-primary glow-button start">{{ _('Отримати бонус')}} </button>
+            </p>
+        </div>
         <div class="row space-between-block ">
             <div class="col-md-3 block_font_image">
                  <img class="font_image " src="{{ url_for('static', filename='images/pattern2.png') }}" alt="CYBER SLOTS">
@@ -130,5 +206,10 @@
     </div> <!-- /container -->
 
 </main>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script src="{{ url_for('static', filename='js/roulette.js') }}"></script>
+<script src="{{ url_for('static', filename='js/demo.js') }}"></script>
 
 {% endblock %}

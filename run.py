@@ -60,10 +60,5 @@ def main():
     return render_template("main.html")
 
 
-@app.route('/test-map')
-def test_map():
-    return render_template("test-map.html")
-
-
 if __name__ == "__main__":
     app.run(port=51413, host='0.0.0.0')

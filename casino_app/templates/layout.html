@@ -18,7 +18,7 @@
     <link type="text/css" rel="stylesheet"
           href="{{ url_for('static', filename='casino_fonts_color.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='layout.css') }}">
-    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+
     {% block head %}
     {% endblock %}
 </head>
@@ -72,10 +72,6 @@
         <p>&copy; Cyber Slots 2021-2022</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous">
-    </script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="{{ url_for('static', filename='bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js') }}"></script>
 
