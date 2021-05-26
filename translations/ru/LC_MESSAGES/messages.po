@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-24 15:33+0300\n"
+"POT-Creation-Date: 2021-05-24 16:57+0300\n"
 "PO-Revision-Date: 2021-05-24 15:34+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -75,6 +75,14 @@ msgstr ""
 
 #: casino_app/templates/contacts.html:15 casino_app/templates/layout.html:42
 msgid "Контакти"
+msgstr ""
+
+#: casino_app/templates/contacts.html:16
+msgid "м. Київ, вул. ГнатаХоткевича, 12, оф. 177"
+msgstr ""
+
+#: casino_app/templates/contacts.html:17
+msgid "ЄДРПОУ 43660399"
 msgstr ""
 
 #: casino_app/templates/contacts.html:23
@@ -157,6 +165,26 @@ msgstr ""
 msgid "Азартні ігри майбутнього"
 msgstr ""
 
+#: casino_app/templates/index.html:17
+msgid ""
+"Cyber Slots - оператор ігрових залів, який впроваджує новітні технології "
+"та надає\n"
+"                    клієнтам якісні та безпечні послуги у сфері "
+"відпочинку."
+msgstr ""
+
+#: casino_app/templates/index.html:20
+msgid ""
+"Наша компетенція - створення технологічних локацій з людино-орієнтованим "
+"підходом.\n"
+"                        Ми компанія, яка любить гру за емоції, які вона "
+"дарує людям. За азарт, свободу,\n"
+"                        непердбачуваність, виграші та програші. Ми "
+"знаємо, що гра на гроші робить всі ці вудчуття\n"
+"                        гостріше, але ми так само знаємо, що гра тільки "
+"заради грошей робить саму гру безглуздою. "
+msgstr ""
+
 #: casino_app/templates/index.html:35
 msgid "Гарні часи. Гарна гра."
 msgstr ""
@@ -178,8 +206,92 @@ msgstr ""
 msgid "Відповідальність за гру"
 msgstr ""
 
+#: casino_app/templates/index.html:56
+msgid ""
+"Бренд впроваджує принципи Responsible Gaming і просуває їх у своїй "
+"категорії."
+msgstr ""
+
+#: casino_app/templates/index.html:58
+msgid ""
+"Ми вважаємо,\n"
+"                        що розслабитися і віддатися грі та фану можна "
+"тільки там, де відчуваєш себе в цілковитій\n"
+"                        безпеці. Ми дотримуємося приватності гравців і "
+"надійно охороняємо їх персональні дані. Довгострокові\n"
+"                        відносини з клієнтом — це наш пріоритет. Наші "
+"відносини будуються на довірі та\n"
+"                        непорушних законах."
+msgstr ""
+
 #: casino_app/templates/index.html:74
 msgid "Цінності"
+msgstr ""
+
+#: casino_app/templates/index.html:77
+msgid "Свідомість"
+msgstr ""
+
+#: casino_app/templates/index.html:80
+msgid "Ми просуваємо свідомий підхід до азартних ігор."
+msgstr ""
+
+#: casino_app/templates/index.html:83
+msgid ""
+"У нас є кодекс правил, які пояснюють нашій людині на старті\n"
+"                                як убезпечити себе і взяти максимум "
+"задоволення від процесу гри. Також ми\n"
+"                                просуваємо принципи responsible gaming у "
+"всій категорії. "
+msgstr ""
+
+#: casino_app/templates/index.html:90
+msgid "Інноваційність"
+msgstr ""
+
+#: casino_app/templates/index.html:93
+msgid "Ми бажаємо дивувати та запам'ятовуватися."
+msgstr ""
+
+#: casino_app/templates/index.html:95
+msgid ""
+"Ми робимо game-change в категорії за рахунок\n"
+"                                технологічності, брендингу,\n"
+"                            нестандартного маркетингу і точок контакту з "
+"нашою людиною.\n"
+"                            Ми підтримуємо новаторство у всіх напрямках "
+"бізнесу. "
+msgstr ""
+
+#: casino_app/templates/index.html:105
+msgid "Персоніфікація"
+msgstr ""
+
+#: casino_app/templates/index.html:108
+msgid "Наш сервіс — це персоніфікація. "
+msgstr ""
+
+#: casino_app/templates/index.html:110
+msgid ""
+"Ми хочемо зробити все найкраще для нашої людини та\n"
+"                                вибудовуємо довгострокові відносини\n"
+"                                через системи лояльності та сучасні "
+"технологічні рішення. "
+msgstr ""
+
+#: casino_app/templates/index.html:116
+msgid "Безпека"
+msgstr ""
+
+#: casino_app/templates/index.html:119
+msgid "Ми забезпечуємо конфіденційність на всіх рівнях"
+msgstr ""
+
+#: casino_app/templates/index.html:121
+msgid ""
+"Ніколи не поширюємо інформацію про наших людей. Сучасні\n"
+"                                технології та експертні знання\n"
+"                                дозволяють нам зробити це."
 msgstr ""
 
 #: casino_app/templates/layout.html:39

@@ -1,5 +1,5 @@
-from flask import render_template
-from flask import Flask
+from flask import render_template, redirect, request
+from flask import Flask, session
 from flask_babel import Babel
 from config import Config
 
@@ -10,12 +10,24 @@ import os
 app = Flask(__name__, template_folder=os.path.abspath('casino_app/templates'),
             static_folder=os.path.abspath('casino_app/static'))
 app.config.from_object(Config)
+app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 babel = Babel(app)
+
+
+@babel.localeselector
+def get_locale():
+    """ return desired language """
+    return request.accept_languages.best_match(['uk', 'ru', 'en'])
 
 
 @app.route('/')
 def index():
     return render_template("index.html")
+
+
+@app.route('/lang')
+def change_lang():
+    return redirect('/')
 
 
 @app.route('/vacancy')
